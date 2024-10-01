@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
+:root {
+  /* Backgrounds */
+  --orange: #ed6755;
+  --darkBlue: #1c1b5e;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .card {
@@ -73,4 +80,22 @@
 .close:hover {
   color: #000;
   transition: all 0.3s ease;
+}
+
+.next_popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ed6755;
+  color: black;
+  font-size: 20px;
+  line-height: 21.47px;
+  width: 230px;
+  margin-top: 5rem;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.4);
+  margin-top: 1.5rem;
+  cursor: pointer;
 }
